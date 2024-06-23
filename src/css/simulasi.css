@@ -1,0 +1,44 @@
+.kotak-utama-gambar img{
+  /* background-image: url(../image/simulasi.png); */
+  /* background-size: cover; */
+  /* background-position: center; */
+  width: 100%; /* Pastikan gambar mengisi kontainer */
+  height: 100%; /* Pastikan gambar mengisi kontainer */
+  /* object-fit: cover;  */
+  position: absolute; /* Menempatkan gambar di posisi absolut */
+  top: 100;
+  left: 100;
+
+ /* width: 50%;
+  height: 100vh; */
+ 
+
+  /* z-index: 20;/ */
+ } 
+
+.frame1{
+  position: absolute;
+  left: 150px;
+  top: 340px;
+  z-index: 20;
+}
+.frame2{
+  position: absolute;
+  left: 500px;
+  top: 70px;
+}
+.frame3{
+  position: absolute;
+  left: 820px;
+  /* right: 40px; */
+  top: 340px;
+  /* bottom: 7px; */
+}
+.frame4{
+  position: absolute;
+  left: 500px;
+  top: 650px;
+}
+
+
+

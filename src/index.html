@@ -1,0 +1,223 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/src/css/input.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
+</head>
+<body>
+  
+
+<nav class="border-gray-200 bg-gray-900 dark:bg-gray-800 dark:border-gray-700 fixed top-0 left-0 w-full shadow-2xl ">
+  <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+    <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+        <img src="/src/image/Logo_traffiC.png" class="h-10" alt="logo" />
+        <span class="text-yellow-300 self-center text-2xl font-semibold whitespace-nowrap dark:text-white">SMART TRAFFIC LIGHT</span>
+    </a>
+    <button data-collapse-toggle="navbar-solid-bg" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-solid-bg" aria-expanded="false">
+        <span class="sr-only">Open main menu</span>
+        <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+        </svg>
+    </button>
+    <div class="hidden w-full md:block md:w-auto  lg:-ml-20" id="navbar-solid-bg">
+      <ul class="flex flex-col font-medium mt-4 bg-gray-50 md:space-x-8  md:flex-row md:mt-0 md:border-0 md:bg-transparent">
+        <li>
+          <a href="#home" class="block py-2 px-3 md:p-0 text-yellow-300 hover:text-white bg-yellow-300 rounded md:bg-transparent md:text-yellow-300 md:dark:bg-transparent" aria-current="page">Beranda</a>
+        </li>
+        <li>
+          <a href="#about" class="block py-2 px-3 md:p-0 text-yellow-300 rounded hover:text-white md:hover:bg-transparent md:border-0 md:hover:text-yellow-300 ">Tentang</a>
+        </li>
+        <li>
+          <a href="maps.html" class="block py-2 px-3 md:p-0 text-yellow-300 rounded hover:text-white md:hover:bg-transparent md:border-0 md:hover:text-yellow-300 ">Peta</a>
+        </li>
+        <li>
+          <a href="simulasi.html" class="block py-2 px-3 md:p-0 text-yellow-300 rounded hover:text-white md:hover:bg-transparent md:border-0 md:hover:text-yellow-300 ">Simulasi</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  <main id="content" class="font-poppins">
+    <section class="bg-yellow-300 dark:bg-gray-900" id="home">
+      <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
+          <div class="mr-auto place-self-center lg:col-span-7">
+              <h1 class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none lg:text-8xl xl:text-6xl dark:text-white">Solusi Untuk Kepadatan Lalu Lintas </h1>
+              <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400 italic"> Sistem yang dapat mengetahui kondisi kemacetan dengan menghitung jumlah kendaraan.</p>
+              <a href="maps.html" class="inline-flex flex-col-10 items-center justify-center px-6 py-3 text-base font-medium text-center text-gray-900 bg-white rounded-lg hover:bg-yellow-300">
+                  Camera CCTV                  
+                  <svg class="w-6 h-6 ml-2 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 12H5m14 0-4 4m4-4-4-4"/>
+                  </svg>
+              </a> 
+          </div>
+          <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
+              <img src="/src/image/logo_home.png" alt="mockup">
+          </div>                
+      </div>
+  </section>
+
+  <section class="bg-white p-8 dark:bg-gray-900" id="about">
+  <div class="mx-auto max-w-screen-sm text-center mb-8 lg:mb-16">
+      <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Tentang</h2>
+      <p class="font-semibold text-gray-500 lg:mb-16 sm:text-xl dark:text-gray-600 italic">Kedukungan sistem traffic light</p>
+  </div>
+    <div class=" items-center py-2 px-4 xl:gap-4 md:grid md:grid-cols-2 sm:py-10  lg:px-6">
+        <img class="w-96 h-96 p-4 shadow-xl " src="/src/image/foto_kendaraan.jpg" alt="dashboard image">
+        <div class="mt-4 md:mt-0 lg:ml-20">
+            <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Smart Traffic Light</h2>
+            <p class="mb-6 font-light text-xl text-gray-500 md:text-xl dark:text-gray-400">Sebuah sistem yang dapat mengetahui kondisi kemacetan lalu lintas melalui Website. Teknologi yang digunakan salah satunya adalah YOLO V8</p>
+            <h3 class="text-3xl font-extrabold text-gray-900">Manfaat Smart Traffic Light</h3>
+            <div>
+              <ul class="list-inside text-gray-500 mt-2 text-xl">
+                <li class="flex">
+                  <svg class="w-6 h-6 text-yellow-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                </svg>
+                Efisiensi Operasional
+              </li>
+                <li class="flex">
+                  <svg class="w-6 h-6 text-yellow-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                </svg>
+                Keamanan yang Ditingkatkan
+              </li>
+                <li class="flex">
+                  <svg class="w-6 h-6 text-yellow-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                </svg>
+                Penghematan Biaya
+              </li>
+                <li class="flex">
+                  <svg class="w-6 h-6 text-yellow-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                </svg>
+                Transparansi dan Akuntabilitas
+              </li>
+                
+              </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="bg-gray-50 dark:bg-gray-900">
+  <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
+      <div class="max-w-screen-md mb-8 lg:mb-16">
+          <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Sistem Smart Traffic Light</h2>
+          <p class="text-gray-500 sm:text-xl dark:text-gray-400">Manfaat utama dari Smart Traffic Light kami :</p>
+      </div>
+      <div class="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
+          <div>
+              <div class="flex justify-center items-center mb-4 w-10 h-10 bg-yellow-300  rounded-md  lg:h-12 lg:w-12 dark:bg-primary-900">
+                <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                  <path fill-rule="evenodd" d="M14 7a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V7Zm2 9.387 4.684 1.562A1 1 0 0 0 22 17V7a1 1 0 0 0-1.316-.949L16 7.613v8.774Z" clip-rule="evenodd"/>
+                </svg>             
+              </div>
+              <h3 class="mb-2 text-xl font-bold dark:text-white">Mengetahui Keadaan lalu Lintas</h3>
+              <p class="text-gray-500 dark:text-gray-400">Mengambil video CCTV Lalu lintas secara real-time dan menyimpan dalam komputer. </p>
+          </div>
+          <div>
+              <div class="flex justify-center items-center mb-4 w-10 h-10 rounded-md bg-yellow-300 lg:h-12 lg:w-12 dark:bg-primary-900">
+                <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                  <path fill-rule="evenodd" d="M9 7V2.221a2 2 0 0 0-.5.365L4.586 6.5a2 2 0 0 0-.365.5H9Zm2 0V2h7a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V9h5a2 2 0 0 0 2-2Zm-2 4a2 2 0 0 0-2 2v2a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2v-2a2 2 0 0 0-2-2H9Zm0 2h2v2H9v-2Zm7.965-.557a1 1 0 0 0-1.692-.72l-1.268 1.218a1 1 0 0 0-.308.721v.733a1 1 0 0 0 .37.776l1.267 1.032a1 1 0 0 0 1.631-.776v-2.984Z" clip-rule="evenodd"/>
+                </svg>                
+              </div>
+              <h3 class="mb-2 text-xl font-bold dark:text-white"> Memberikan Data Lalu Lintas Terkini</h3>
+              <p class="text-gray-500 dark:text-gray-400">Menyediakan data terbaru mengenai lalu lintas, termasuk volume kendaraan dan kemacetan.</p>
+          </div>
+          <div>
+              <div class="flex justify-center items-center mb-4 w-10 h-10  bg-yellow-300  rounded-md lg:h-12 lg:w-12 dark:bg-primary-900">
+                  <svg class="w-5 h-5 text-primary-600 lg:w-6 lg:h-6 dark:text-primary-300" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 6V5a3 3 0 013-3h2a3 3 0 013 3v1h2a2 2 0 012 2v3.57A22.952 22.952 0 0110 13a22.95 22.95 0 01-8-1.43V8a2 2 0 012-2h2zm2-1a1 1 0 011-1h2a1 1 0 011 1v1H8V5zm1 5a1 1 0 011-1h.01a1 1 0 110 2H10a1 1 0 01-1-1z" clip-rule="evenodd"></path><path d="M2 13.692V16a2 2 0 002 2h12a2 2 0 002-2v-2.308A24.974 24.974 0 0110 15c-2.796 0-5.487-.46-8-1.308z"></path></svg>                    
+              </div>
+              <h3 class="mb-2 text-xl font-bold dark:text-white">Membantu Lembaga Pemerintahan</h3>
+              <p class="text-gray-500 dark:text-gray-400">Menyediakan data terkini mengenai kepadatan lalu lintas dan membantu mendeteksi serta mengelola kemacetan secara efektif.</p>
+          </div>
+      </div>
+  </div>
+</section>
+
+  <section class="bg-yellow-300 dark:bg-gray-900">
+    <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6 ">
+        <div class="mx-auto max-w-screen-sm text-center mb-8 lg:mb-16">
+            <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Peta Titik CCTV</h2>
+            <p class="font-semibold text-gray-500 lg:mb-16 sm:text-xl dark:text-gray-600 italic">Kota Makassar, Sulawesi Selatan</p>
+        </div> 
+        <div class="grid gap-4 mb-6 lg:mb-16 md:grid-cols-3">
+            <div class="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
+                <div class="p-2 text-center">
+                    <h3 class="text-xl text-center font-bold tracking-tight text-gray-900 dark:text-white">
+                        <a href="#">Jl. TOL Sutami</a>
+                    </h3>
+                    <a href="#" class="text-center">
+                      <iframe width="" height="" class="w-30 px-5 h-60 m-4" src="https://www.youtube.com/embed/D7NutpsOCIg?si=dfZHg_HHssrRX-SE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </a>
+                    <a href="maps.html" class=" w-72 inline-flex flex-col-2 items-center justify-center px-2 py-3 font-poppins font-semibold text-base text-center text-gray-900 bg-yellow-300 border border-gray-300 rounded-lg hover:bg-yellow-300">
+                      Lainnya               
+                      <svg class="w-6 h-6 ml-2 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 12H5m14 0-4 4m4-4-4-4"/>
+                      </svg>
+                  </a>
+                </div>
+            </div>  
+            <div class="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
+                <div class="p-2 text-center">
+                    <h3 class="text-xl text-center font-bold tracking-tight text-gray-900 dark:text-white">
+                        <a href="#">Jl. Urip-Perintis</a>
+                    </h3>
+                    <a href="#" class="text-center">
+                      <iframe width="" height=""  class="w-30 px-5 h-60 m-4" src="https://www.youtube.com/embed/WIK46rUsf8g?si=dODBB7JRYpaUhQ8e" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </a>
+                    <a href="maps.html" class=" w-72 inline-flex flex-col-2 items-center justify-center px-2 py-3 font-poppins font-semibold text-base text-center text-gray-900 bg-yellow-300 border border-gray-300 rounded-lg hover:bg-yellow-300">
+                      Lainnya               
+                      <svg class="w-6 h-6 ml-2 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 12H5m14 0-4 4m4-4-4-4"/>
+                      </svg>
+                  </a>
+                </div>
+            </div>  
+            <div class="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
+                <div class="p-2 text-center">
+                    <h3 class="text-xl text-center font-bold tracking-tight text-gray-900 dark:text-white">
+                        <a href="#">Jl. Andi Pangerang Pettarani</a>
+                    </h3>
+                    <a href="#" class="text-center">
+                      <iframe width="" height="" class="w-30 px-5 h-60 m-4" src="https://www.youtube.com/embed/gA-sHIJA8cM?si=-jHF0-A1HLpatEbZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </a>
+                    <a href="maps.html" class=" w-72 inline-flex flex-col-2 items-center justify-center px-2 py-3 font-poppins font-semibold text-base text-center text-gray-900 bg-yellow-300 border border-gray-300 rounded-lg hover:bg-yellow-300">
+                      Lainnya               
+                      <svg class="w-6 h-6 ml-2 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 12H5m14 0-4 4m4-4-4-4"/>
+                      </svg>
+                  </a>
+                </div>
+            </div>  
+        </div>  
+    </div>
+  </section>
+
+  
+
+<footer class="bg-gray-900 ">
+  <div class="w-full max-w-screen-xl mx-auto ">
+      <div class="sm:flex sm:items-center sm:justify-between">
+          <a href="" class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse mt-2 ml-2">
+              <img src="/src/image/Logo_traffiC.png" class="h-8" alt="Logo" />
+              <span class="self-center text-2xl font-semibold whitespace-nowrap text-yellow-400 ">SMART TRAFFIC LIGHT</span>
+          </a>
+      </div>
+      
+      <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="https://flowbite.com/" class="hover:underline">Flowbite™</a>. All Rights Reserved.</span>
+  </div>
+</footer>
+
+
+
+  </main>
+
+  <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+</body>
+</html>
